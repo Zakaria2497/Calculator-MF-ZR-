@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CalculatorZR</string>
+    <string name="num1">Number 1</string>
+    <string name="num2">Number 2</string>
+    <string name="Result">Result</string>
+    <string name="Add">Add</string>
+    <string name="Subtract">Subtract</string>
+    <string name="Multiply">Mul</string>
+    <string name="Divide">Div</string>
+    <string name="Scientific">Scientific</string>
+    <string name="num">Number</string>
+    <string name="pow">Power Input</string>
+    <string name="sin">SIN</string>
+    <string name="cos">COSINE</string>
+    <string name="tan">TAN</string>
+    <string name="sqrt">SQRT</string>
+    <string name="power_bt">POWER</string>
+</resources>

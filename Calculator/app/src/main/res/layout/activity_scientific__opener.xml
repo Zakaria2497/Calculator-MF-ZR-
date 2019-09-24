@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pow_Opener">
+
+    <EditText
+android:id="@+id/num"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="@string/num"
+android:importantForAutofill="no"
+android:inputType="number"
+android:textSize="30sp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.059" />
+
+<EditText
+android:id="@+id/pow"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:hint="@string/pow"
+android:importantForAutofill="no"
+android:inputType="number"
+android:textSize="30sp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="1.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.796" />
+
+<TextView
+android:id="@+id/Result"
+android:layout_width="match_parent"
+android:layout_height="60dp"
+android:layout_marginStart="32dp"
+android:layout_marginTop="15dp"
+android:layout_marginEnd="32dp"
+android:background="#E00A33"
+android:text="@string/Result"
+android:textSize="50sp"
+android:visibility="visible"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.155"
+tools:visibility="visible" />
+
+<Button
+android:id="@+id/sin"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="32dp"
+android:layout_marginEnd="32dp"
+android:layout_marginBottom="15dp"
+android:text="@string/sin"
+android:textSize="25sp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.288" />
+
+<Button
+android:id="@+id/cos"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="32dp"
+android:layout_marginTop="16dp"
+android:layout_marginEnd="32dp"
+android:text="@string/cos"
+android:textSize="25sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/sin" />
+
+<Button
+android:id="@+id/tan"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="32dp"
+android:layout_marginTop="24dp"
+android:layout_marginEnd="32dp"
+android:text="@string/tan"
+android:textSize="25sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/cos" />
+
+<Button
+android:id="@+id/sqrt"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="32dp"
+android:layout_marginTop="48dp"
+android:layout_marginEnd="32dp"
+android:text="@string/sqrt"
+android:textSize="25sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/tan" />
+
+<Button
+android:id="@+id/power_bt"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="32dp"
+android:layout_marginTop="140dp"
+android:layout_marginEnd="32dp"
+android:background="#057A92"
+android:text="@string/power_bt"
+android:textSize="25sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/sqrt" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
